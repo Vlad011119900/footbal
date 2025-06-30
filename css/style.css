@@ -1,11 +1,93 @@
-body {
-    background-color: #8dc63f;
+* {
+    margin: 0;
+    padding: 0;
 }
 
+header {
+    padding: 25px 0;
+}
+
+body {   
+    background-color: #8dc63f;
+    font-family: Arial;
+}
+
+main {
+    padding: 25px 0 29px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1{
+    font-size: 24px;
+    color: #39930d;
+    padding-bottom: 17px;
+}
+
+.main_img img {
+width: 100%;
+}
 .wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
 background-color: #fff;
 }
 
+.logo p, .contacts a {
+font-size: 22px;
+color: #39930d;
+}
+
+.logo b {
+    display: block;
+    padding: 3 0;
+    font-size: 44px;
+}
+
+.logo i,
+ .contacts i {
+    font-size: 14px;
+color: #5a5a5a;
+}
+
+.main-text p {
+max-width: 599px;
+margin-bottom: 18px;
+font-size: 14px;
+line-height: 1.5em;
+color: #343434;
+}
+
+.menu p {
+    max-width: 300px;
+    padding: 11px 19px;
+font-size: 18px;
+color: #fff;
+background-color: #39930d;
+}
+
+.menu ul{
+padding: 20px;
+}
+
+.menu a {
+font-size: 14px;
+line-height: 2.1em;
+text-decoration: underline;
+text-transform: uppercase;
+color: #39930d;
+}
 .footer{
-background-color: #39930d;;
+    margin: 0 -15px;
+    padding: 14px 15px;
+    font-size: 14px;
+    color: #fff;
+background-color: #39930d;
 }
