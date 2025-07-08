@@ -7,6 +7,11 @@ header {
     padding: 25px 0;
 }
 
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
 body {   
     background-color: #8dc63f;
     font-family: Arial;
@@ -38,6 +43,10 @@ width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 background-color: #fff;
+}
+
+.logo{
+    gap: 20px;
 }
 
 .logo p, .contacts a {
