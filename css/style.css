@@ -66,6 +66,11 @@ color: #39930d;
 color: #5a5a5a;
 }
 
+.contacts i{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .main-text p {
 max-width: 599px;
 margin-bottom: 18px;
@@ -75,7 +80,7 @@ color: #343434;
 }
 
 .menu p {
-    max-width: 300px;
+    min-width: 300px;
     padding: 11px 19px;
 font-size: 18px;
 color: #fff;
