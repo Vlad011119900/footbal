@@ -3,22 +3,35 @@
     padding: 0;
 }
 
-header {
-    padding: 25px 0;
+html {
+    font-size: .8px;
 }
 
-.flex-between{
-    display: flex;
-    justify-content: space-between;
-}
-
-body {   
+body {
     background-color: #8dc63f;
     font-family: Arial;
 }
 
+body {
+    cursor: url('../img/cursor2.cur'), auto;
+}
+
+body a {
+    cursor: url('../img/cursor.cur'), auto;
+}
+
+header {
+    padding: 25rem 0;
+    flex-wrap: wrap;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
 main {
-    padding: 25px 0 29px;
+    padding: 25rem 0 29rem;
 }
 
 a {
@@ -29,79 +42,135 @@ ul {
     list-style: none;
 }
 
-h1{
-    font-size: 24px;
+h1 {
+    font-size: 24rem;
     color: #39930d;
-    padding-bottom: 17px;
+    padding-bottom: 17rem;
 }
 
 .main_img img {
-width: 100%;
+    width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+    object-position: 75%;
 }
+
 .wrapper {
-    max-width: 960px;
+    max-width: 960rem;
     margin: 0 auto;
-    padding: 0 15px;
-background-color: #fff;
+    padding: 0 15rem;
+    background-color: #fff;
 }
 
-.logo{
-    gap: 20px;
+.logo {
+    gap: 20rem;
 }
 
-.logo p, .contacts a {
-font-size: 22px;
-color: #39930d;
+.logo p,
+.contacts a {
+    font-size: 22rem;
+    color: #39930d;
 }
 
 .logo b {
     display: block;
     padding: 3 0;
-    font-size: 44px;
+    font-size: 44rem;
 }
 
 .logo i,
- .contacts i {
-    font-size: 14px;
-color: #5a5a5a;
+.contacts i {
+    font-size: 14rem;
+    color: #5a5a5a;
 }
 
-.contacts i{
+.contacts i {
     display: flex;
     justify-content: flex-end;
 }
 
+.main_conteiner {
+    flex-wrap: wrap-reverse;
+}
+
 .main-text p {
-max-width: 599px;
-margin-bottom: 18px;
-font-size: 14px;
-line-height: 1.5em;
-color: #343434;
+    margin-bottom: 18rem;
+    font-size: 14rem;
+    line-height: 1.5em;
+    color: #343434;
+}
+
+.menu{
+    width: 100%;
+    min-width: 200px;
 }
 
 .menu p {
-    min-width: 300px;
-    padding: 11px 19px;
-font-size: 18px;
-color: #fff;
-background-color: #39930d;
+    min-width: 300rem;
+    padding: 11rem 19rem;
+    font-size: 18rem;
+    color: #fff;
+    background-color: #39930d;
 }
 
-.menu ul{
-padding: 20px;
+.menu ul {
+    padding: 20rem;
 }
 
 .menu a {
-font-size: 14px;
-line-height: 2.1em;
-text-decoration: underline;
-text-transform: uppercase;
-color: #39930d;
+    font-size: 14rem;
+    line-height: 2.1em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #39930d;
 }
-.footer{
-    margin: 0 -15px;
-    padding: 14px 15px;
-    font-size: 14px;
+
+.footer {
+    margin: 0 -15rem;
+    padding: 14rem 15rem;
+    font-size: 14rem;
     color: #fff;
-background-color: #39930d;
+    background-color: #39930d;
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: .9px;
+    }
+
+    header {
+        flex-wrap: nowrap;
+    }
+
+    .main_conteiner {
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 1px;
+    }
+
+    .main-text{
+        min-width: 599rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    html {
+        font-size: 1.1px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    html {
+        font-size: 1.5px;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    html {
+        font-size: 1.7px;
+    }
 }
