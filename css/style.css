@@ -137,7 +137,7 @@ h1 {
     background-color: #39930d;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     html {
         font-size: .9px;
     }
