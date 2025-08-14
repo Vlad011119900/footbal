@@ -93,6 +93,10 @@ h1 {
     flex-wrap: wrap-reverse;
 }
 
+.main-text{
+    flex-wrap: wrap;
+}
+
 .main-text p {
     margin-bottom: 18rem;
     font-size: 14rem;
