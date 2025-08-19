@@ -93,7 +93,7 @@ h1 {
     flex-wrap: wrap-reverse;
 }
 
-.main-text{
+.main-text {
     flex-wrap: wrap;
 }
 
@@ -102,11 +102,6 @@ h1 {
     font-size: 14rem;
     line-height: 1.5em;
     color: #343434;
-}
-
-.menu{
-    width: 100%;
-    min-width: 200px;
 }
 
 .menu p {
@@ -137,17 +132,9 @@ h1 {
     background-color: #39930d;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     html {
         font-size: .9px;
-    }
-
-    header {
-        flex-wrap: nowrap;
-    }
-
-    .main_conteiner {
-        flex-wrap: nowrap;
     }
 }
 
@@ -156,7 +143,11 @@ h1 {
         font-size: 1px;
     }
 
-    .main-text{
+    .main_conteiner {
+        flex-wrap: nowrap;
+    }
+
+    .main-text {
         min-width: 599rem;
     }
 }
