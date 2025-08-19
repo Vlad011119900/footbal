@@ -20,6 +20,13 @@ body a {
     cursor: url('../img/cursor.cur'), auto;
 }
 
+.wrapper {
+    background-color: #fff;
+    padding: 0 15rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 header {
     padding: 25rem 0;
     flex-wrap: wrap;
@@ -55,12 +62,6 @@ h1 {
     object-position: 75%;
 }
 
-.wrapper {
-    max-width: 290px;
-    margin: 0 auto;
-    background-color: #fff;
-}
-
 .logo {
     gap: 20rem;
 }
@@ -85,7 +86,7 @@ h1 {
 
 .contacts i {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .main_conteiner {
@@ -131,29 +132,22 @@ h1 {
     background-color: #39930d;
 }
 
+@media screen and (min-width: 476px) {
+    .contacts i{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
 @media screen and (min-width: 768px) {
     html {
         font-size: .9px;
-    }
-
-    .wrapper {
-        max-width: 700px;
-        margin: 0 auto;
-        padding: 0 15rem;
-        background-color: #fff;
     }
 }
 
 @media screen and (min-width: 1024px) {
     html {
         font-size: 1px;
-    }
-
-    .wrapper {
-        max-width: 1000rem;
-        margin: 0 auto;
-        padding: 0 15rem;
-        background-color: #fff;
     }
 
     .main_conteiner {
