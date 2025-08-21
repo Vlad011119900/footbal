@@ -97,6 +97,10 @@ h1 {
     flex-wrap: wrap;
 }
 
+.menu{
+    width: 100%;
+}
+
 .main-text p {
     margin-bottom: 18rem;
     font-size: 14rem;
